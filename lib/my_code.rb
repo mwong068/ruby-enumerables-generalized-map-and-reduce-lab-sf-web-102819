@@ -1,3 +1,3 @@
 
 
-def (map(array) {|n| n * -1})
+def ((array).map {|n| n * -1})

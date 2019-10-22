@@ -1,7 +1,6 @@
 def map(array)
-  results = {}
-    array.each do yield
-  end
-  puts results
-end
+ results = []
+ i = 0 
+ while i < array.length do
+   
 

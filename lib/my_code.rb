@@ -8,3 +8,8 @@ def map(array)
 results
 end
 
+def reduce(array, starting = 0)
+  total = 0
+    
+  total
+end

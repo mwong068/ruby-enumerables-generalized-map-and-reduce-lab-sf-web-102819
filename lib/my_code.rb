@@ -9,4 +9,4 @@ def map(array)
   return results
 end
 
-def ((array).map {|n| n * -1})
+map(array) 

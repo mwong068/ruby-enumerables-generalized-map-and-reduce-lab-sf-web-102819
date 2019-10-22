@@ -2,10 +2,10 @@ def map(array)
   results = []
   i = 0 
   while i < array.length do
-    results.push(array[i] * -1)
+    results.push(yield)
   i += 1 
   end
   return results
 end
 
-(array).map{|n| n * -1}
+map(array) {|n| n * -1}

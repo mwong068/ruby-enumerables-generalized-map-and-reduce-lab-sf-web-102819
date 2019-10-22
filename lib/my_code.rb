@@ -1,5 +1,5 @@
 
-def mappy(array)
+def map(array)
   results = []
   i = 0 
   while i < array.length do
@@ -9,4 +9,4 @@ def mappy(array)
   yield results
 end
 
-mappy([array]) {|n| n * -1}
+

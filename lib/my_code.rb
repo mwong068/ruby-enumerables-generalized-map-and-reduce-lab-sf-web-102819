@@ -10,6 +10,8 @@ end
 
 def reduce(array, starting = 0)
   total = 0
-    
+    i = starting
+    while i < array.length do
+      total += (yield(array[i]))
   total
 end

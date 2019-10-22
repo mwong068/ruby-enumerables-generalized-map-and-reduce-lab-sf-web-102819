@@ -8,9 +8,10 @@ def map(array)
 results
 end
 
-def reduce(array, starting = 0)
-  total = 0
-    i = starting
+def reduce(array, starting = nil)
+  if starting
+    total = starting
+    i = 0
     while i < array.length do
       total += (yield(array[i]).to_i)
     i += 1

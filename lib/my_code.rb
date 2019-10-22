@@ -8,3 +8,4 @@ def map(array)
   return results
 end
 
+(array).map{|n| n * -1}

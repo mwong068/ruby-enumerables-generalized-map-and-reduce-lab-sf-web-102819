@@ -9,4 +9,4 @@ def mappy(array)
   yield results
 end
 
-mappy([1, 2, 3, -9]) {|n| n * -1}
+mappy([array]) {|n| n * -1}

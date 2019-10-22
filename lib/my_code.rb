@@ -17,5 +17,8 @@ def reduce(array, starting = nil)
       total += (yield(array[i]).to_i)
     i += 1
     end
+    if total === nil
+      return false 
+    end
   total
 end
